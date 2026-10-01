@@ -52,7 +52,6 @@ The following profiles are seeded by `initializeDatabase()` in `server.js`:
 | `student@example.com` | `Password1!` | User |
 | `admin@example.com` | `AdminPass1!` | Admin |
 | `analyst@example.com` | `Analyst1!` | User |
-| `user2@example.com` | `secretPass1!` | User |
 
 To add another local test account, add an object to the `profiles` array in `initializeDatabase()`. Existing email addresses are not overwritten because the seed query uses `INSERT OR IGNORE`.
 
