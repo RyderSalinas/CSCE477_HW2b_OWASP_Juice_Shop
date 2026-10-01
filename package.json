@@ -1,0 +1,12 @@
+{
+  "name": "juice-shop-login-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "sqlite3": "^5.1.7"
+  }
+}
